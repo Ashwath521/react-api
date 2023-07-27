@@ -24,7 +24,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch db.json --port 5000"
+    "server": "json-server --watch db.json --port 5000",
+     "lint": "eslint src",
+    "prettify": "prettier --write \"src/**/*.js\"",
+    "precommit": "lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -32,6 +35,13 @@
       "react-app/jest"
     ]
   },
+   "lint-staged": {
+    "src/**/*.js": ["npm run lint", "npm run prettify"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }},
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,7 +55,13 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.9.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
     "install": "^0.13.0",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0",
     "tailwindcss": "^3.3.3"
   }
 }

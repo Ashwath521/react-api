@@ -1,0 +1,10 @@
+node_modules
+yarn.lock
+package-lock.json
+public
+types
+.github
+react-app-env.d.ts
+build
+tsconfig.json
+amplify

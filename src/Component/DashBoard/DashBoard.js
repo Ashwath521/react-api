@@ -7,9 +7,11 @@ import { useEffect } from "react";
 
 export default function DashBoard() {
   const count = useSelector((state) => state.cart.count);
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(setDefaultCount());
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
