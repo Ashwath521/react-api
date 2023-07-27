@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "firstName": " revanna",
+      "lastName": " gowda",
+      "userEmail": "ashwath.narayana@aspiresys.com",
+      "jwt": "q4w4Mjys7abCHptI9rIS9zm8Xghi5I",
+      "pwd": "Ashwath@2023",
+      "id": 1
+    },
+    {
+      "firstName": " ashwath",
+      "lastName": " gowda",
+      "userEmail": "ashwathmn96@gmail.com",
+      "jwt": "sa8xuCaWHf7MQk1jwAgRyb1YdzMNyd",
+      "pwd": "Ashwath@2024 ",
+      "id": 2
+    }
+  ],
+  "product": [
+  {
+    "id": 1,
+    "name": "Apple Phone",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8mWHZ5WiaT3aP3PkAKZGYkk-kSModuJsx8A&usqp=CAU",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 2,
+    "name": "Apple Laptop",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAQ8cJMGFqtu6uAwpiKbFq4-XF6s0IK2PGA&usqp=CAU",
+    "details": "Nullam consectetur elit sed mi tincidunt, eget lacinia nibh ultrices."
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch",
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ultra-band-unselect-gallery-1-202307_GEO_IN_FMT_WHH?wid=752&hei=720&fmt=p-jpg&qlt=80&.v=1688678673359",
+    "details": "Duis rhoncus mauris at nisi pharetra, vel dapibus augue aliquam."
+  },
+  {
+    "id": 4,
+    "name": "Dell Laptop",
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/g-series/g16-7630/media-gallery/black/notebook-g16-7630-nt-black-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3500&hei=2625&qlt=100,1&resMode=sharp2&size=3500,2625&chrss=full&imwidth=5000",
+    "details": "Suspendisse vehicula augue vel metus dignissim, eu fermentum nibh euismod."
+  },
+  {
+    "id": 5,
+    "name": "Sony Headphone",
+    "image": "https://s3-ap-southeast-1.amazonaws.com/s3.loopme.sg/img/newos/aiposts/2023/04/2x/488039_zM3AL6FCyHwDLkUd_0.jpg",
+    "details": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+  },
+  {
+    "id": 6,
+    "name": "Lenovo Laptop",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQto4HzFGtSM2o5wM-OuzvujizPTLfW29Ye0Mskz_H6k9_Br2j0SNT4JuLmQ7WdKcf7D_c&usqp=CAU",
+    "details": "Vestibulum nec ipsum non turpis hendrerit luctus."
+  },
+  {
+    "id": 7,
+    "name": "Nothing Phone",
+    "image": "https://fixzd.com/wp-content/uploads/2023/05/Cover-Photo-930x620.jpg",
+    "details": "Cras ullamcorper risus ac diam eleifend eleifend."
+  },
+  {
+    "id": 8,
+    "name": "Boat Headset",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/Backup3_1_659166de-19d4-4852-b9a4-572a6f28bc3d_1500x.png?v=1667832536",
+    "details": "Aliquam id est vitae mauris ultricies placerat."
+  },
+  {
+    "id": 9,
+    "name": "Hp Laptop",
+    "image": "https://images.hindustantimes.com/tech/img/2021/12/17/1600x900/DSC_1300_1639757802261_1639757843934.jpg",
+    "details": "Integer sit amet mauris cursus, eleifend ligula vel, fringilla nulla."
+  },
+  {
+    "id": 10,
+    "name": "SamSung Phone",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-e146bzghins/gallery/in-galaxy-f-sm-e146bzghins-sm-e---bzggins-536047036?$650_519_PNG$",
+    "details": "Maecenas eget sapien at ex sagittis luctus id nec mi."
+  }
+]
+
+}
